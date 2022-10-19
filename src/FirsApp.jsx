@@ -1,7 +1,7 @@
 const newMensaje = "Lestrades";
 
 const suma = (x)=> {
-    return x / 2;
+    return x + 2;
 }
 
 export const FirsApp = () => {
