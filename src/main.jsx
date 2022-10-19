@@ -10,6 +10,6 @@ import "./styles.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
         <HelloWordApp />
-        <FirsApp />
+        <FirsApp title="Empecemos a programar" subtitle="En React" />
     </React.StrictMode>
 )
