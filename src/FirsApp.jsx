@@ -1,8 +1,10 @@
-const newMensaje = "Lestrades";
+import PropTypes from "prop-types";
 
 
 
 export const FirsApp = ({ title, subtitle }) => {
+
+
 
     return (
         <>
@@ -12,4 +14,12 @@ export const FirsApp = ({ title, subtitle }) => {
         </>
 
     )
+}
+FirsApp.propTypes = {
+    title: PropTypes.string.isRequired,
+    subtitle: PropTypes.string.isRequired
+}
+FirsApp.defaultProps = {
+    title: "No hay titulo",
+    subtitle: "No hay",
 }
