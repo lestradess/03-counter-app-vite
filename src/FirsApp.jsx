@@ -8,6 +8,7 @@ export const FirsApp = ({ title, subtitle }) => {
             <h2>{title}</h2>
             <h3>{subtitle}</h3>
             <p>By Lestrades</p>
+            
         </>
     )
 }
