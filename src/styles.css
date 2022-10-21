@@ -6,6 +6,7 @@ html, body{
     padding: 70px;
 }
 button{
-    padding: 15 px;
+    padding: 25px;
     font-size: 1.3rem;
+    margin-right: 15px;
 }
