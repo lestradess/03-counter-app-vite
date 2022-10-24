@@ -1,12 +1,14 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
 
-export const CounterApp = ({value}) => {
+export const CounterApp = ( { value } ) =>
+{
     const [counter, setCounter] = useState( value );
 
     const handleAdd = () => {
         //setCounter(counter + 1);
         setCounter( (c) => c + 1 )
+        console.log( sdfalj )
     }
     const handleSubstract = () => setCounter( (c) => c - 1)
     const handleReset = () => setCounter( value )
