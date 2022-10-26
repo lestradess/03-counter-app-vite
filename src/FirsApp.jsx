@@ -1,7 +1,5 @@
 import PropTypes from "prop-types";
 
-
-
 export const FirsApp = ({ title, subtitle }) => {
     return (
         <>

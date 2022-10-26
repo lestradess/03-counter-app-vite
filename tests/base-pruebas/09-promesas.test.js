@@ -18,7 +18,7 @@ describe('Pruebas en 09-promesas', () => {
         getHeroeByIdAsync(id)
             .catch(error => {
                 expect(error).toBe(`No se pudo encontrar el héroe ${ id }`)
-                console.log(error);
+                //console.log(error);
                 done();
             })
     })

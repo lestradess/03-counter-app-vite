@@ -6,7 +6,7 @@ describe('Pruebas en 05-funciones', () => {
             username: 'El_Papi1502'
         };
         const user = getUser();
-        console.log(user);
+        //console.log(user);
 
         expect(testUser).toEqual(user);
     })

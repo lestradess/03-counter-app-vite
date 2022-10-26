@@ -8,7 +8,7 @@ export const getUser = () => ({
 
 
 const user = getUser();
-console.log(user);
+//console.log(user);
 
 // Tarea
 export const getUsuarioActivo = ( nombre ) =>({

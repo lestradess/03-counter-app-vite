@@ -21,8 +21,8 @@ describe('Pruebas en 08-imp-exp', () => {
             heroesArrOri.push(heroe.name);
         });
 
-        console.log('heroesArrOri: ' + heroesArrOri);
-        console.log('heroesArr: ' + heroesArr);
+        //console.log('heroesArrOri: ' + heroesArrOri);
+        //console.log('heroesArr: ' + heroesArr);
         expect(heroesArrOri).toEqual(heroesArr);
         expect(heroesArrOri.length).toEqual(heroesArr.length)
         expect(heroes).toEqual(heroesOri.filter((heroe) => heroe.owner === 'DC'));

@@ -5,7 +5,7 @@ describe('Pruebas en 07_deses-arr', () => {
     test('Debe retornar un string y un número', () => {
 
         const [ letras, numeros ] = retornaArreglo();
-        console.log(letras,numeros);
+        //console.log(letras,numeros);
 
         expect(typeof letras).toBe('string');
         expect(typeof numeros).toBe("number");
